@@ -160,14 +160,7 @@ Defined only for non-negative integers. Recursive implementation assumes valid i
 
 ## 🖇️ Architecture
 
-```mermaid
-flowchart TD
-    A[Code + Documentation] --> B[Orchestrator Node (Prep)]
-    B --> C[Synthesizer Node (LLM Reviewer)]
-    C --> D[Human Review Node (HITL)]
-    D --> E[Archive Node]
-    E --> F[Done! Review Archived]
-```
+![Workflow Architecture](codeMermaid.png)
 
 ---
 
